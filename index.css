@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #525e75;
+  }
+  
+  /* Style the header */
+  .middle.header {
+    background-color: #92ba92;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+    width: 64%;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    margin-left: 35%;
+    box-shadow: 10px 10px 20px;
+    border-radius: 25px;
+  }
+  
+  .header {
+      background-color: #92ba92;
+      padding: 20px;
+      text-align: center;
+      border-radius: 25px;
+    }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left column */
+  .column.side {
+    width: 32%;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    margin-left: 1%;
+    background-color: #f1ddbf;
+    box-shadow: 10px 10px 20px;
+    border-radius: 25px;
+  }
+  
+  .center {
+      text-align: center;
+    }
+    
+  
+  .classes {
+      text-indent: 5%;
+      font-size: 20px;
+  }
+  
+  .aboutme {
+      margin-top: 2%;
+      margin-bottom: 2%;
+      margin-left: 2%;
+      margin-right: 2%;
+      font-size: 25px;
+  }
+  
+  /* Image Of Me */
+  .imageofme {
+      border: 1px solid black;
+      border-radius: 25px;
+    }
+  
+  /* Middle column */
+  .column.middle {
+    width: 64%;
+    align-content: right;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    margin-left: 1%;
+    background-color: #f1ddbf;
+    box-shadow: 10px 10px 20px;
+    border-radius: 25px;
+  }
+  .education.title {
+      font-size: 40px;
+  }
+  
+  .education.text {
+      font-size: 25px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #78938a;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .email.column {
+      text-align: center;
+      align-content: center;
+      width: 98%;
+      align-content: center;
+      border: 1px solid black;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-right: 1%;
+      margin-left: 1%;
+      background-color: #92ba92;
+      box-shadow: 10px 10px 20px;
+      border-radius: 25px;
+  }

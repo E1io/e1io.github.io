@@ -1,191 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Elijah and Aidan's Wacky Website</title>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>CSS Website Layout</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-        /* Style the body */
-        
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-        }
-        /* Header/logo Title */
-        
-        .header {
-            padding: 80px;
-            background-image: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png");
-            background-color: #000000;
-            text-align: center;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-        }
-        /* Increase the font size of the heading */
-        
-        .header h1 {
-            font-size: 40px;
-        }
-        /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
-        
-        .navbar {
-            overflow: hidden;
-            background-color: rgb(71, 71, 71);
-            position: sticky;
-            position: -webkit-sticky;
-            top: 0;
-        }
-        /* Style the navigation bar links */
-        
-        .navbar a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-        }
-        /* Right-aligned link */
-        
-        .navbar a.right {
-            float: right;
-        }
-        /* Change color on hover */
-        
-        .navbar a:hover {
-            background-color: rgb(0, 0, 0);
-            color: rgb(255, 0, 0);
-        }
-        /* Active/current link */
-        
-        .navbar a.active {
-            background-color: #666;
-            color: white;
-        }
-        /* Column container */
-        
-        .row {
-            display: -ms-flexbox;
-            /* IE10 */
-            display: flex;
-            -ms-flex-wrap: wrap;
-            /* IE10 */
-            flex-wrap: wrap;
-        }
-        /* Create two unequal columns that sits next to each other */
-        /* Sidebar/left column */
-        
-        .side {
-            -ms-flex: 30%;
-            /* IE10 */
-            flex: 30%;
-            background-color: #b15858;
-            padding: 20px;
-        }
-        /* Main column */
-        
-        .main {
-            -ms-flex: 70%;
-            /* IE10 */
-            flex: 70%;
-            background-color: #5b58ff;
-            padding: 20px;
-        }
-        /* Fake image, just for this example */
-        
-        .fakeimg {
-            background-color: #aaa;
-            width: 100%;
-            padding: 20px;
-        }
-        /* Footer */
-        
-        .footer {
-            padding: 20px;
-            text-align: center;
-            background: #999999;
-        }
-        /* Responsive layout - when the screen is less than 10px wide, make the two columns stack on top of each other instead of next to each other */
-        
-        @media screen and (max-width: 10px) {
-            .row {
-                flex-direction: column;
-            }
-        }
-        /* Responsive layout - when the screen is less than 10px wide, make the navigation links stack on top of each other instead of next to each other */
-        
-        @media screen and (max-width: 10px) {
-            .navbar a {
-                float: none;
-                width: 100%;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
 
-    <div class="header">
-        <h1>Elijah and Aidan's Wacky Website</h1>
-        <p>A <b>Bodacious</b> website created by Aidan and Elijah.</p>
+
+
+<div class="row">
+    <div class="column side">
+        <img class="imageofme" src="images/image of me.jpg" alt="Image Of Me" width="100%" height="100%">
+        <h3><i class="material-icons">email</i>ejorgensen.dearborn@gmail.com</h3>
+        <h3><i class="material-icons">home</i>Michigan, USA</h3>
+        <h3><i class="material-icons">email</i>jorgenep@udmercy.edu</h3>
+        <h3><i class="material-icons">phone</i>+1(313)932-3735</h3>
+        <hr> 
+        <div> 
     </div>
-
-    <div class="navbar">
-        <a href="#" class="active">Home</a>
-        <a href="https://www.pacogames.com/action/bullet-force">Bullet Force</a>
-        <a href="https://shellshock.io/">Shell Shockers</a>
-        <a href="#" class="right">Home Page</a>
-    </div>
-
-    <div class="row">
-        <div class="side">
-            <h2>About Aidan and Elijah</h2>
-            <h5>Photo of us:</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Swiggity swoogity it's Eli and Aidan's weird website! We 're just a couple of nerds with a couple of ideas and a couple of pictures and a couple of cool stuff that has never been revealed to the public! Mostly.</p>
-            <h4>Aidans Pets</h4>
-            <p>Aidan has had 3 lizards. The first one is Apollo, next is Gibby, and the last is Puff the Magic Dragon.</p>
-            <img src="https://lh3.googleusercontent.com/-Yde421eSMyY/X5NO7vb1P1I/AAAAAAAABog/SINReVuqsdYOLJxKhnbgNU_ayYqCpDF9wCK8BGAsYHg/s0/IMG_0220.JPG" alt="Apollo" width="300" height="230.2734375">
-            <br>
-            <img src="https://lh3.googleusercontent.com/-cq-oaoCiDuY/X5NO5FjZNWI/AAAAAAAABoU/-gqOF7jWttgSzaV49vFV9sBETnGygWP1wCK8BGAsYHg/s0/IMG_0218.JPG" alt="Gibby" width="300" height="225.2186588921282">
-            <br>
-            <img src="https://lh3.googleusercontent.com/-fHUywzrqK8A/X5NO2s6MBlI/AAAAAAAABoI/OJtpGvaMzdwyaPDoEBlixq2P4tHVGsJIwCK8BGAsYHg/s0/IMG_0219.JPG" alt="Puff" width="300" height="340.1993355481728">
-            <br>
-            <br>
-            <br>
-            <iframe src="https://funhtml5games.com?embed=2048bit" style="width:310px;height:620px;border:1px;" frame border="1px" scrolling="no"></iframe>
-            <br>
-            <br>
-            <br><iframe width="300px" height="500px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowtransparency="true" src="https://chatroll.com/embed/chat/gxfd?id=S1iVSt9l4jF&platform=html"></iframe>
-
+        <h1>Awards, Honors, and Clubs</h1>
+        <p class="classes">--4 Time Varsity XC</p>  
+        <p class="classes">--3 Time Varsity Track</p>
+        <p class="classes">--1 Time All-Region</p>  
+        <p class="classes">--2 Time All-Catholic</p>  
+        <p class="classes">--Eagle Scout</p>
+        <p class="classes">--3 Eagle Palms</p>
+        <p class="classes">--Over 1600 days of consecutive leadership in BSA</p>  
+        <p class="classes">--Orgami Club</p>  
+        <p class="classes">--Astromony Club</p> 
+        <p class="classes">--Robotics Club</p>  
+        
+        <div class="email column">
+            <form action="https://formspree.io/f/mknlbqwd" method="POST" >
+                <label>
+                    Your email:
+                    <br>
+                    <input type="email" name="email">
+                    <br>
+                </label>
+                <label>
+                    Your message:
+                    <br>
+                    <textarea name="message"></textarea>
+                    <br>
+                </label>
+                <button type="submit">Send</button>
+            </form>
         </div>
-        <div class="main">
-            <h2>Aidans Hobbies</h2>
-            <img src="https://lh3.googleusercontent.com/-mOpICJLsg18/X5gjE1Hxd2I/AAAAAAAABqY/bqJGp3uEP8Up-Pv2K4PbYlUodE2pC4JLQCK8BGAsYHg/s0/2020-10-27.jpg" alt="Aidan's Hobbies" width="800" height="400">
-            <p>Aidan enjoys collecting videogames and old movies. He is a track runner and loves to run. He has had three lizards and has loved them all. The first one's name is Apollo. Apollo was the smallest. The second one was Gibby. Gibby was the biggest.
-                And the only one left is Puff. Puff's name came from Puff the Magic Dragon.</p>
-            <br>
-            <h2>Elijah's Hobbies</h2>
-            <img src="https://lh3.googleusercontent.com/-QYnEjRgKhVs/X5gWt3l5m2I/AAAAAAAABp4/c_CSLNTLLwA1zjkp9X5U-XRdytCiA0K3gCK8BGAsYHg/s0/2020-10-27.jpg" alt="Elijah's Hobbies" width="800" height="400">
-            <br>
-            <p>Elijah enjoys drawing and programming. He is experienced in programming on Visual Studio Code (a programming application made by Windows), Arduino IDE, Notepad++, Unity, and Terminal. Elijah programs in the following languages; HTML, CSS,
-                JAVA, JAVASCRIPT, SWIFT, and C#. He also loves to run and has a varsity letter in cross country.
-            </p>
-            <br>
-            <br>
-            <br>
-            <iframe src="https://www.gameflare.com/embed/bullet-force/" frameborder="0" scrolling="no" width="800" height="508" allowfullscreen></iframe>
-        </div>
+
     </div>
+  
+    <div class="middle header">
+        <h1>ELIJAH JORGENSEN</h1>
+    </div>
+
+    <div class="column middle">
+        <p class="education title">Prior Education</p>
+        <p class="education text">University of Detroit Mercy</p>
+        <p><i class="material-icons">event</i>2023 - 2027</p>
+        <p class="classes">--Intro To Programing 1 (C++)</p>  
+        <hr>
+        <p class="education text">Divine Child Catholic Highschool</p>
+        <p><i class="material-icons">event</i>2022 - 2023</p>
+        <p class="classes">--Robotics With Microcontrollers</p>  
+        <p class="classes">--Digital Design</p>  
+
+        <hr>
+        <p class="education text">Cardnal Gibbons</p>
+        <p><i class="material-icons">event</i>2020 - 2022</p>
+        <p class="classes">--Programing (Javascript)</p>  
+        <p class="classes">--Enginering Design</p>  
+    </div>
+
+    <div class="column middle">
+        <p class="education title">About Me</p>
+        <p class="aboutme">I've been to three different high schools in different places, and I've learned a lot in subjects like computer science, engineering, digital media, and robotics. I didn't just focus on school stuff; I also did other activities like teaching at a BSA Scout camp and working as a handyman. I even got a special award from the BSA called the Eagle Scout Award, and I did really well in cross country and track & field sports. I like taking on leadership roles, and I've had a lot of them in scouting. Besides all this, I really enjoy working on robots and fixing up old cars, which shows how much I like doing hands-on and technical things.</p>
+    </div>
+    
+
+    
+
+</div>
+
+<div class="footer">
+    <a href="https://github.com/E1io" target="_blank"><i class="fa fa-github" aria-hidden="true" style="font-size: 40px; color:black;"></i></a>
+    <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true" style="font-size: 40px; color:black;"></i></a>
+    <a href="www.linkedin.com/in/elijah-jorgensen" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" style="font-size: 40px; color:black;"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="font-size: 40px; color:black;"></i></a>
+    <a href="https://www.buymeacoffee.com/ejorgensenm" target="_blank"><i class="fa fa-coffee" aria-hidden="true" style="font-size: 40px; color:black;"></i></a>
+</div>
+
 </body>
-<footer>
-
-</footer>
-
 </html>
+
