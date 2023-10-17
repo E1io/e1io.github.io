@@ -1,109 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="index.css">
-    <title>Elijah Jorgensen</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
-
-
-
-<div class="row">
-    <div class="column side">
-        <img class="imageofme" src="images/image of me.jpg" alt="Image Of Me" width="100%" height="100%">
-        <h3><i class="material-icons">email</i>ejorgensen.dearborn@gmail.com</h3>
-        <h3><i class="material-icons">home</i>Michigan, USA</h3>
-        <h3><i class="material-icons">email</i>jorgenep@udmercy.edu</h3>
-        <h3><i class="material-icons">phone</i>+1(313)932-3735</h3>
-        <hr> 
-        <div> 
-    </div>
-        <h1>Awards, Honors, and Clubs</h1>
-        <p class="classes">--4 Time Varsity XC</p>  
-        <p class="classes">--3 Time Varsity Track</p>
-        <p class="classes">--1 Time All-Region</p>  
-        <p class="classes">--2 Time All-Catholic</p>  
-        <p class="classes">--Eagle Scout</p>
-        <p class="classes">--3 Eagle Palms</p>
-        <p class="classes">--Over 1600 days of consecutive leadership in BSA</p>  
-        <p class="classes">--Astromony Club</p> 
-        <p class="classes">--Robotics Club</p> 
-        <h1>Certifications</h1>
-        <p class="classes"><a href="https://verify.mygreatlearning.com/JQNPXUEX">--ChatGPT for Beginners</a></p>
-        <p class="classes"><a href="https://verify.mygreatlearning.com/GVYYCEOE">--Front End Development - HTML</a></p>
-        <p class="classes"><a href="https://verify.mygreatlearning.com/BWLEWCTF">--HTML Attributes and Tags</a></p>
-        <p class="classes"><a href="https://verify.mygreatlearning.com/ATMKUOKJ">--Front End Development - CSS</a></p>
-        <p class="classes"><a href="https://verify.mygreatlearning.com/CFREROLN">--CSS Tutorial</a></p>
-        <p class="classes"><a href="https://verify.mygreatlearning.com/CBLDOLIS">--CSS Properties</a></p>
-
-        <div class="email column">
-            <form action="https://formspree.io/f/mknlbqwd" method="POST" >
-                <label>
-                    Your email:
-                    <br>
-                    <input type="email" name="email">
-                    <br>
-                </label>
-                <label>
-                    Your message:
-                    <br>
-                    <textarea name="message"></textarea>
-                    <br>
-                </label>
-                <button type="submit">Send</button>
-            </form>
+    <header>
+        <nav>
+            <img src="Screenshot 2023-10-16 094034.png" alt="">
+            <ul>
+                <li><a href="#" class="active">About</a></li>
+                <li><a href="#portfolio-loc">Certifications</a></li>
+                <li><a href="#contact-loc">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="search">
+                <i class="ri-search-line"></i>
+            </div>
+        </nav>
+        <div class="landing">
+            <div class="intro">
+                <h3>I'M <Span>Elijah Jorgensen</Span><br>Front End Web Developer & UD Mercy<br>Undergrad Student</h3>
+                <div class="contactme">
+                    <a href="#contact-loc">Contact</a>
+                </div>
+            </div>
         </div>
-    </div>
- 
-    <div class="middle header">
-        <h1>ELIJAH JORGENSEN</h1>
-    </div>
+    </header>
+    <section class="about">
+        <h1>About</h1>
+        <div class="description">
+            <div class="line"></div>
+            <p>I've been to three different high schools in different places, and I've learned a lot in subjects like 
+              computer science, engineering, digital media, and robotics. I didn't just focus on school stuff, I also 
+              did other activities like teaching at a BSA Scout camp and working as a handyman. I even got the top award 
+              from Boy Scouts, the Eagle Scout Award, and I did really well in cross country and track & field sports. 
+              I like taking on leadership roles, and I've had a lot of them in scouting. Besides all this, I really enjoy 
+              working on robots and fixing up old cars, which shows how much I like doing hands-on and technical things.</p>
+        </div>
+    </section>
+    <section class="skills">
+      <h1>Awards, Achievements, and Clubs</h1>
+      <div class="cards">
+          <div class="skill-card">
+            <img src="awards/xc.png" alt="">
+            <h2>4 Time Varsity XC</h2>
+          </div>
+          <div class="skill-card">
+            <img src="awards/track.jpg" alt="">
+            <h2>3 Time Varsity Track</h2>
+          </div>
+          <div class="skill-card">
+            <img src="awards/cross-country.jpg" alt="">
+            <h2>1 Time All-Region</h2>
+          </div>
+          <div class="skill-card">
+            <img src="awards/xc2.jpg" alt="">
+            <h2>2 Time All-Catholic</h2>
+          </div>
+          <div class="skill-card">
+            <img src="awards/eaglescout.png" alt="">
+            <h2>Eagle Scout</h2>
+          </div>
+          <div class="skill-card">
+            <img src="awards/palms.png" alt="">
+            <h2>3 Eagle Palms</h2>
+          </div>
+          <div class="skill-card">
+            <img src="awards/leadership.jpg" alt="">
+            <h2>Over 1600 days of consecutive leadership in BSA</h2>
+          </div>
+          <div class="skill-card">
+            <img src="awards/astronomy.gif" alt="">
+            <h2>Astromony Club</h2>
+          </div>
+          <div class="skill-card">
+            <img src="awards/robot.jpg" alt="">
+            <h2>Robotics Club</h2>
+          </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio-loc">
+        <h1>Certifications</h1>
+        <div class="portfolio-cards">
+            <div class="portfolio-card">
+                <img src="certifications/Chat-GPT.webp" alt="">
+                <div class="overlay">
+                    <h3>ChatGPT for Beginners</h3>
+                    <p>This certification covers the fundamental workings of Chat GPT and provides guidance on its proper utilization.</p>
+                    <button onclick="location.href='https://verify.mygreatlearning.com/JQNPXUEX'">Click To Verfiy -></button>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <img src="certifications/HTML-Basics-712x401.jpg" alt="">
+                <div class="overlay">
+                    <h3>Front End Devlopment - HTML</h3>
+                    <p>This course provides an introduction to HTML basics and the architecture of websites.</p>
+                    <button onclick="location.href='https://verify.mygreatlearning.com/GVYYCEOE'">Click To Verfiy -></button>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <img src="certifications/HTML.jpg" alt="">
+                <div class="overlay">
+                    <h3>HTML Attributes and Tags</h3>
+                    <p>This cource goes into deeper explanation with website architecture, spicificaly with Attributes and tags.</p>
+                    <button onclick="location.href='https://verify.mygreatlearning.com/verify/BWLEWCTF'">Click To Verfiy -></button>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <img src="certifications/css.webp" alt="">
+                <div class="overlay">
+                    <h3>Front End Development - CSS</h3>
+                    <p>This certification paves the way for aesthetically pleasing websites through CSS.</p>
+                    <button onclick="location.href='https://verify.mygreatlearning.com/ATMKUOKJ'">Click To Verfiy -></button>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <img src="certifications/csstags.jpg" alt="">
+                <div class="overlay">
+                    <h3>CSS Tutorial</h3>
+                    <p>This certification broadens your knowledge by introducing advanced concepts within CSS.</p>
+                    <button onclick="location.href='https://verify.mygreatlearning.com/CFREROLN'">Click To Verfiy -></button>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <img src="certifications/css2.webp" alt="">
+                <div class="overlay">
+                    <h3>CSS Properties</h3>
+                    <p>CSS properties provide instructions for managing and modifying elements such as layout, color, typography, 
+                        and various visual components of a webpage.</p>
+                    <button onclick="location.href='https://verify.mygreatlearning.com/CBLDOLIS'">Click To Verfiy -></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="experience">
+        <div class="darker-div"></div>
+        <h1>Experience</h1>
+        <div class="lighter-div">
+            <div class="exp">
+                <h2>Camp Counselors</h2>
+                <div class="exp-desc">
+                    <h3>Occoneechee Scout Reservation</h3>
+                    <h3>Carthage, NC</h3>
+                    <p>During my tenure at Occonchee Scout Reservation, I held the role of Cycling Director. 
+                        My duties encompassed the maintenance of all bicycles, which entailed tasks such as cleaning, routine upkeep, and addressing any necessary repairs. 
+                        Additionally, I oversaw trail maintenance, conducting weekly inspections to ensure their proper functionality. 
+                        I was also responsible for the upkeep of both the pump track and the downhill course. 
+                        Ultimately, my primary objective was to guarantee a safe and enjoyable experience for all campers during their time at camp.</p>
+                </div>
+            </div>
+            <div class="exp">
+                <h2>Retail Associate</h2>
+                <div class="exp-desc">
+                    <h3>Great Lake Ace</h3>
+                    <h3>Dearborn, MI</h3>
+                    <p>My primary objective revolves around ensuring that our valued customers experience a seamless and hassle-free journey during their visit. 
+                        This entails not only providing excellent service but also overseeing the intricacies of managing our backstock efficiently. 
+                        Additionally, I take great care in meticulously organizing the store layout, ensuring that products are strategically placed for easy accessibility and maximum visibility. 
+                        Maintaining a neat and orderly environment is of paramount importance, as it not only enhances the overall shopping experience but also reflects positively on the brand's image. 
+                        Through diligent attention to these multifaceted responsibilities, I strive to uphold the highest standards of customer satisfaction and operational excellence within the store.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-me" id="contact-loc">
+        <h1>Contact Me</h1>
+        <div class="contact">
+            <div class="contact-card">
+                <i class="ri-message-3-line"></i>
+                <p>Ejorgensen.dearborn@gmail.com <br> Jorgenep@udmercy.edu</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-phone-line"></i>
+                <p>+1(313)932-3735</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-map-pin-3-line"></i>
+                <p>21728 Morley Ave. <br> Dearborn, Michigan</p>
+            </div>
+        </div>
 
-    <div class="column middle">
-        <p class="education title">Prior Education</p>
-        <p class="education text">University of Detroit Mercy</p>
-        <p><i class="material-icons">event</i>2023 - 2027</p>
-        <p class="classes">--Intro To Programing 1 (C++)</p>  
-        <hr>
-        <p class="education text">Divine Child Catholic Highschool</p>
-        <p><i class="material-icons">event</i>2022 - 2023</p>
-        <p class="classes">--Robotics With Microcontrollers</p>  
-        <p class="classes">--Digital Design</p>  
-
-        <hr>
-        <p class="education text">Cardnal Gibbons</p>
-        <p><i class="material-icons">event</i>2020 - 2022</p>
-        <p class="classes">--Programing (Javascript)</p>  
-        <p class="classes">--Enginering Design</p>  
-    </div>
-
-    <div class="column middle">
-        <p class="education title">About Me</p>
-        <p class="aboutme">I've been to three different high schools in different places, and I've learned a lot in subjects like 
-            computer science, engineering, digital media, and robotics. I didn't just focus on school stuff; I also did other 
-            activities like teaching at a BSA Scout camp and working as a handyman. I even got the top award from Boy Scouts, 
-            the Eagle Scout Award, and I did really well in cross country and track & field sports. I like taking on leadership roles, 
-            and I've had a lot of them in scouting. Besides all this, I really enjoy working on robots and fixing up old cars, which 
-            shows how much I like doing hands-on and technical things.</p>
-    </div>
-    
-
-    
-
-</div>
-
-<div class="footer">
-    <a href="https://github.com/E1io" target="_blank"><i class="fa fa-github" aria-hidden="true" style="font-size: 40px; color:#ababab;"></i></a>
-    <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true" style="font-size: 40px; color:#ababab;"></i></a>
-    <a href="https://www.linkedin.com/in/elijah-jorgensen" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" style="font-size: 40px; color:#ababab;"></i></a>
-    <a href="https://instagram.com/elijorgen?igshid=MzMyNGUyNmU2YQ==" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="font-size: 40px; color:#ababab;"></i></a>
-    <a href="https://www.buymeacoffee.com/ejorgensenm" target="_blank"><i class="fa fa-coffee" aria-hidden="true" style="font-size: 40px; color:#ababab;"></i></a>
-</div>
-
+        <div class="contact">
+            <div class="contact-card">
+                <a href="https://github.com/E1io" target="_blank" rel="noopener" title="Link to Elijah's GitHub profile"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
+            <div class="contact-card">
+                <a href="https://stackoverflow.com/" target="_blank" rel="noopener" title="Link to Stack Overflow"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+            </div>
+            <div class="contact-card">
+                <a href="https://www.linkedin.com/in/elijah-jorgensen" target="_blank" rel="noopener" title="Link to Elijah's LinkedIn profile"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+            <div class="contact-card">
+                <a href="https://www.instagram.com/elijorgen/" target="_blank" rel="noopener" title="Link to Elijah's Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <div class="contact-card">
+                <a href="https://www.buymeacoffee.com/ejorgensenm" target="_blank" rel="noopener" title="Link to Elijah's Buy Me a Coffee"><i class="fa fa-coffee" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
-</html>
 
+</html>
