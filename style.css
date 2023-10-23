@@ -70,37 +70,18 @@ header nav ul li .active {
   color: #fbfbfb;
 }
 
-header nav .search {
-  height: 48px;
-  width: 200px;
-  background-color: #3d3e42;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 4px;
-  border-radius: 10px;
+body header nav div a {
+    margin: 25px 25px;
+    color: #98999a;
+    text-decoration: none;
 }
 
-header nav .search input {
-  border: none;
-  background-color: transparent;
-  width: 80%;
-  color: #fbfbfb;
-  outline: none;
+body header nav div a:hover {
+    color:#fbfbfb;
 }
 
-header nav .search input:focus {
-  border: none;
-  outline: none;
-}
-
-header nav .search input::placeholder {
-  color: #98999a;
-  font-size: 16px;
-}
-
-header nav .search i {
-  color: #98999a;
+body header nav div a:active {
+    color:#fbfbfb;
 }
 
 body header div div div a {
@@ -506,3 +487,4 @@ body header div div div a .active {
   font-size: 40px;
   color: #000000;
 }
+
