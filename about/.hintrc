@@ -1,0 +1,16 @@
+//This hides a warning I had on my end and it was anoing to look at
+
+
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ]
+  }
+}
