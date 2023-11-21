@@ -89,19 +89,6 @@ li a:hover {
     animation-duration: 1s;
 }
 
-@keyframes social {
-    0% {
-        transform: translateY(100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-
-
 .social a:hover {
     background: linear-gradient(90deg, rgba(255,95,109,1) 0%, rgba(53,201,252,1) 100%);
     box-shadow: 0 0 20px;
@@ -114,34 +101,12 @@ li a:hover {
     animation-duration: 1s;
 }
 
-@keyframes h1 {
-    0% {
-        transform: translateY(-200px);
-        opacity: 1;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
 .detail h3 {
     font-size: 24px;
     margin-bottom: 20px;
 
     animation-name: h3;
     animation-duration: 1s;
-}
-
-@keyframes h3 {
-    0% {
-        transform: translateX(200px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
 }
 
 .detail p {
@@ -151,17 +116,6 @@ li a:hover {
 
     animation-name: p;
     animation-duration: 1s;
-}
-
-@keyframes p {
-    0% {
-        transform: translateY(200px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
 }
 
 .btn a {
@@ -174,17 +128,6 @@ li a:hover {
 
     animation-name: btn;
     animation-duration: 1s;
-}
-
-@keyframes btn {
-    0% {
-        transform: translateX(200px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
 }
 
 .btn a:hover {
@@ -214,3 +157,37 @@ li a:hover {
         margin-top: 30px;
     }
 }
+
+@keyframes social {
+    0% {transform: translateY(100p)}
+    100% {transform: translateY(0)}
+}
+
+@keyframes h1 {
+    0% {transform: translateY(-200px)}
+    100% {transform: translateY(0)}
+}
+
+@keyframes h3 {
+    0% {transform: translateX(200px)}
+    100% {transform: translateX(0)}
+}
+
+@keyframes p {
+    0% {transform: translateY(200px)}
+    100% {transform: translateY(0)}
+}
+
+@keyframes btn {
+    0% {transform: translateX(200px)}
+    100% {transform: translateX(0)}
+}
+
+.myElement {
+    animation: 
+       social 1s ease-in-out,
+       h1 1s ease-in-out,
+       h3 1s ease-in-out,
+       p 1s ease-in-out,
+       btn 1s ease-in-out;
+   }
