@@ -16,6 +16,45 @@
 
 	<script src="js/modernizr.js"></script>
    <script src="js/downloadPDF.js"></script>
+
+   <style>
+      .contact-form {
+          background-color: #000000;
+          padding: 20px;
+          margin: 20px auto;
+          max-width: 500px;
+          font-family: 'Roboto', sans-serif;
+      }
+
+      .contact-form h2 {
+          text-align: center;
+          margin-bottom: 20px;
+      }
+
+      .contact-form input[type="text"],
+      .contact-form input[type="email"],
+      .contact-form textarea {
+          width: 100%;
+          padding: 12px;
+          margin: 8px 0;
+          box-sizing: border-box;
+      }
+
+      .contact-form input[type="submit"] {
+          background-color: #4CAF50;
+          color: white;
+          cursor: pointer;
+          width: 100%;
+          padding: 12px;
+          margin: 16px 0;
+          border: none;
+          text-align: center;
+      }
+
+      .contact-form input[type="submit"]:hover {
+          background-color: #45a049;
+      }
+  </style>
 </head>
 
 <body>
@@ -472,47 +511,21 @@
 
             <div class="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
-                  </div>
-
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                  </div>
-
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
-
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button class="submit" type="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
-
-					</fieldset>
-				   </form> 
-
-               <div id="message-warning"> Error</div>
-
-				   <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-				   </div>
-
+               <div class="contact-form">
+                  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+                     <fieldset id="fs-frm-inputs">
+                       <label for="full-name">Full Name</label>
+                       <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                       <label for="email-address">Email Address</label>
+                       <input type="email" name="_replyto" id="email-address" placeholder="email@example.com" required="">
+                       <label for="message">Message</label>
+                       <textarea rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
+                       <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                     </fieldset>
+                     <input type="submit" value="Submit">
+                  </form>
+               </div>
             </div>
-
 
             <aside class="four columns footer-widgets">
 
