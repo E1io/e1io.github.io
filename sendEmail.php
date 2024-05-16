@@ -1,6 +1,5 @@
 ﻿<?php
 
-// Replace this with your own email address
 $siteOwnersEmail = 'ejorgensen.dearborn@gmail.com, jorgenep@udmercy.edu';
 
 
