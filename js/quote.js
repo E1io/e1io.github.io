@@ -1,9 +1,9 @@
 const images = [
-    "img/quote1.webp", "img/quote2.webp", "img/quote3.webp",
-    "img/quote4.webp", "img/quote5.webp", "img/quote6.webp",
-    "img/quote7.webp", "img/quote8.webp", "img/quote9.webp",
-    "img/quote10.webp", "img/quote11.webp", "img/quote12.webp",
-    "img/quote13.webp","img/quote14.webp"
+    "assets/quote1.webp", "assets/quote2.webp", "assets/quote3.webp",
+    "assets/quote4.webp", "assets/quote5.webp", "assets/quote6.webp",
+    "assets/quote7.webp", "assets/quote8.webp", "assets/quote9.webp",
+    "assets/quote10.webp", "assets/quote11.webp", "assets/quote12.webp",
+    "assets/quote13.webp","assets/quote14.webp"
 ];
 //https://www.codecademy.com/resources/blog/inspirational-coding-quotes/
 
