@@ -86,7 +86,7 @@ section {
     margin: 0 auto;
 }
 
-#about, #resume, #hard-skills {
+#about, #resume, #hard-skills, #certifications {
     background-color: #ebebeb;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -155,21 +155,21 @@ section {
     }
 }
 
-#hard-skills h2 {
+.hard-skills h2 {
     text-align: center;
     font-size: 28px;
     color: #333;
     margin-bottom: 10px;
 }
 
-#hard-skills p {
+.hard-skills p {
     text-align: center;
     font-size: 16px;
     color: #555;
     margin-bottom: 20px;
 }
 
-#hard-skills h3 {
+.hard-skills h3 {
     font-size: 22px;
     color: #444;
     border-bottom: 2px solid #000000;
@@ -177,12 +177,12 @@ section {
     margin-top: 20px;
 }
 
-#hard-skills ul {
+.hard-skills ul {
     list-style-type: none;
     padding: 0;
 }
 
-#hard-skills ul li {
+.hard-skills ul li {
     font-size: 16px;
     color: #333;
     padding: 8px 0;
@@ -190,10 +190,37 @@ section {
     padding-left: 20px;
 }
 
-#hard-skills ul li::before {
+.hard-skills ul li::before {
     content: "✔";
     position: absolute;
     left: 0;
     color: #000000;
     font-size: 18px;
+}
+
+.certification-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.certification {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.certification h3 {
+    margin-bottom: 5px;
+    color: #3498db;
+}
+
+.certification .info {
+    font-style: italic;
+    color: #666;
+}
+
+.certification p {
+    margin: 5px 0;
 }

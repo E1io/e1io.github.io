@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="524ee732-fd08-4290-8783-f3d7ab971a94" name="Changes" comment="add linked css">
+    <list default="true" id="524ee732-fd08-4290-8783-f3d7ab971a94" name="Changes" comment="add certs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/resume.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Elijah-Jorgensen.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pdf/Elijah-Jorgensen.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/IMG_1086.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/IMG_1086.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/IMG_1088.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/IMG_1088.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quote1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/webp/quote1.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quote10.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/webp/quote10.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quote11.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/webp/quote11.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quote12.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/webp/quote12.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quote13.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/webp/quote13.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quote14.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/webp/quote14.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quote2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/webp/quote2.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quote3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/webp/quote3.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quote4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/webp/quote4.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quote5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/webp/quote5.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quote6.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/webp/quote6.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quote7.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/webp/quote7.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quote8.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/webp/quote8.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/quote9.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/webp/quote9.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/quote.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/quote.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,27 +54,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.about.html.executor": "Run",
-    "JavaScript Debug.contact.html.executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "Node.js.fire.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/elijah-fedora/Downloads/HTML-20250123T043228Z-001/HTML/homepage",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.about.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.contact.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.fire.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/elijah-fedora/Downloads/HTML-20250123T043228Z-001/HTML/homepage&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/webp" />
@@ -130,6 +113,7 @@
       <workItem from="1738527140398" duration="2509000" />
       <workItem from="1738548109376" duration="685000" />
       <workItem from="1738591297910" duration="5452000" />
+      <workItem from="1738609198553" duration="4360000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -209,6 +193,7 @@
     <MESSAGE value="about me" />
     <MESSAGE value="about me final" />
     <MESSAGE value="add linked css" />
-    <option name="LAST_COMMIT_MESSAGE" value="add linked css" />
+    <MESSAGE value="add certs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add certs" />
   </component>
 </project>
