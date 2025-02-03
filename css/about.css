@@ -185,9 +185,8 @@ section {
 .hard-skills ul li {
     font-size: 16px;
     color: #333;
-    padding: 8px 0;
     position: relative;
-    padding-left: 20px;
+    padding: 8px 0 8px 20px;
 }
 
 .hard-skills ul li::before {
