@@ -5,134 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="524ee732-fd08-4290-8783-f3d7ab971a94" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Black Modern Professional Resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/spinning.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_spinning.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/css/animation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/css/fontello-codes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/css/fontello-embedded.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/css/fontello-ie7-codes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/css/fontello-ie7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/css/fontello.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/font/fontello.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/font/fontello.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/font/fontello.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontello/font/fontello.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-bold-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-bold-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-bold-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-italic-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-italic-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-italic-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-italic-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-regular-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-regular-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/librebaskerville/librebaskerville-regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Bold-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Bold-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Bold-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-BoldItalic-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-BoldItalic-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-BoldItalic-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-BoldItalic-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBold-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBold-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBold-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Italic-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Italic-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Italic-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Italic-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Light-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Light-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Light-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Light-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-LightItalic-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-LightItalic-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-LightItalic-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-LightItalic-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Regular-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Regular-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Semibold-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Semibold-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Semibold-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-Semibold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-SemiboldItalic-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-SemiboldItalic-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-SemiboldItalic-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/opensans/OpenSans-SemiboldItalic-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media-queries.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/IMG_1038.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/IMG_1061.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/header-background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/overlay-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/overlay-zoom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/Chat-GPT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/HTML-Basics-712x401.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/HTML.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/css.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/css2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/csstags.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/profilepic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/downloadPDF.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-1.10.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-migrate-1.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.fittext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.flexslider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/magnific-popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modernizr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/waypoints.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sendEmail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contact.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,26 +54,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.contact.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.fire.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/elijah-fedora/Downloads/HTML-20250123T043228Z-001/HTML/homepage&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.about.html.executor": "Run",
+    "JavaScript Debug.contact.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "Node.js.fire.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/elijah-fedora/Downloads/HTML-20250123T043228Z-001/HTML/homepage",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -227,7 +103,13 @@
       <workItem from="1738085310552" duration="2836000" />
       <workItem from="1738116679231" duration="1258000" />
       <workItem from="1738117949203" duration="25000" />
-      <workItem from="1738118057984" duration="145000" />
+      <workItem from="1738118057984" duration="2397000" />
+      <workItem from="1738181016498" duration="115000" />
+      <workItem from="1738181145583" duration="722000" />
+      <workItem from="1738185137583" duration="1919000" />
+      <workItem from="1738527140398" duration="2509000" />
+      <workItem from="1738548109376" duration="685000" />
+      <workItem from="1738591297910" duration="3528000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -245,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738117563805</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1738118216169</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738118216169</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1738118223331</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738118223331</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

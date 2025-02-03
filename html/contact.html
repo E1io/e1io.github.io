@@ -1,10 +1,11 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Elijah Jorgensen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/scroll-menu.css">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Roboto');
@@ -142,7 +143,7 @@
     <div class="title">
         <h1>Contact Me</h1>
     </div>
-    <form id="contact-form" class="contact-form" method="POST" action="https://your-server.ts.net/send-email">
+    <form id="contact-form" class="contact-form">
         <div class="input-fields">
             <label>
                 <input type="text" class="input" placeholder="Name" name="name" required>
@@ -151,7 +152,7 @@
                 <input type="email" class="input" placeholder="Email Address" name="email" required>
             </label>
             <label>
-                <input type="text" class="input" placeholder="Phone" name="phone">
+                <input type="text" class="input" placeholder="Phone " name="phone">
             </label>
             <label>
                 <input type="text" class="input" placeholder="Subject" name="subject" required>
@@ -165,7 +166,37 @@
         </div>
     </form>
 </div>
-<script src="../js/quote.js"></script>
-</body>
+<script>
+    document.getElementById('contact-form').addEventListener('submit', async function(event) {
+        event.preventDefault(); // Prevent the default form submission
 
+        const formData = {
+            name: this.name.value,
+            email: this.email.value,
+            subject: this.subject.value,
+            phone: this.phone.value,
+            message: this.message.value,
+        };
+
+        try {
+            const response = await fetch('http://100.76.186.15:3000/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+
+            const result = await response.json();
+            if (response.ok) {
+                alert(result.success);
+            } else {
+                alert(result.error);
+            }
+        } catch (error) {
+            alert('An error occurred: ' + error.message);
+        }
+    });
+</script>
+</body>
 </html>
