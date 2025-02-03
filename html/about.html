@@ -95,7 +95,7 @@
             margin: 0 auto;
         }
 
-        #about, #resume {
+        #about, #resume, #hard-skills {
             background-color: #ebebeb;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -162,6 +162,49 @@
                 flex: 0 0 100%;
                 max-width: 100%;
             }
+        }
+
+        #hard-skills h2 {
+            text-align: center;
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        #hard-skills p {
+            text-align: center;
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        #hard-skills h3 {
+            font-size: 22px;
+            color: #444;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        #hard-skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #hard-skills ul li {
+            font-size: 16px;
+            color: #333;
+            padding: 8px 0;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        #hard-skills ul li::before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: #007bff;
+            font-size: 18px;
         }
     </style>
 </head>
@@ -294,18 +337,46 @@
             </div>
         </div>
     </div>
-    <div class="row skill">
-        <div class="three columns header-col">
-            <h1><span>Hard Skills</span></h1>
-        </div>
-        <div class="nine columns main-col">
-            <p>Throughout my years of extensive travel, I've gained diverse experiences across various domains,
-                resulting in a robust skill set encompassing HTML 5, CSS, PHP, Docker, C++, C#, Python, Java, MySQL, SQLite, JavaScript, Git, Ladder Logic, automation, and Leadership.
-            </p>
-        </div>
-    </div>
 </section>
+<section id="hard-skills">
+    <h2>Hard Skills</h2>
+    <p>Through extensive experience in software development, automation, and database management, I have developed a strong technical skill set across multiple domains:</p>
 
+    <h3>Programming & Web Development</h3>
+    <ul>
+        <li>HTML5, CSS3, JavaScript (ES6+)</li>
+        <li>PHP, Node.js, React.js</li>
+        <li>Python, C++, C#, Java</li>
+    </ul>
+
+    <h3>Database Management</h3>
+    <ul>
+        <li>MySQL, SQLite, PostgreSQL</li>
+        <li>SQL Query Optimization & Database Design</li>
+        <li>Data Automation & Integration</li>
+    </ul>
+
+    <h3>DevOps & Tools</h3>
+    <ul>
+        <li>Docker, Git, CI/CD Pipelines</li>
+        <li>Version Control & Collaborative Development</li>
+        <li>Cloud Computing (AWS, Azure basics)</li>
+    </ul>
+
+    <h3>Automation & Embedded Systems</h3>
+    <ul>
+        <li>PLC Programming (Ladder Logic, Rockwell Studio 5000)</li>
+        <li>Industrial Automation & IoT Integration</li>
+        <li>Scripting for Process Automation</li>
+    </ul>
+
+    <h3>Leadership & Problem-Solving</h3>
+    <ul>
+        <li>Team Collaboration & Agile Development</li>
+        <li>Technical Troubleshooting & Debugging</li>
+        <li>Project Management & Workflow Optimization</li>
+    </ul>
+</section>
 </body>
 
 </html>
